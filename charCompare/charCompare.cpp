@@ -7,7 +7,7 @@ int main () {
 		while(char c = cin.get() != 'q') {
 				cout << c << " wasn't it" << endl;
 				if(char x = c == 'a' || c == 'b')
-						cout << "Tyou typed a or b" << endl;
+						cout << "You typed a or b" << endl;
 				else
 						cout << "You typed " << x << endl;
 		}
